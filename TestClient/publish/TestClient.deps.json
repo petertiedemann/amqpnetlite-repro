@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "TestClient/1.0.0": {
         "dependencies": {
-          "AMQPNetLite.Core": "2.4.3",
-          "AMQPNetLite.Serialization": "2.4.3",
+          "AMQPNetLite.Core": "2.4.4",
+          "AMQPNetLite.Serialization": "2.4.4",
           "CommandLineParser": "2.8.0",
           "Microsoft.Extensions.Logging": "6.0.0",
           "Microsoft.Extensions.Logging.Console": "6.0.0"
@@ -18,17 +18,17 @@
           "TestClient.dll": {}
         }
       },
-      "AMQPNetLite.Core/2.4.3": {
+      "AMQPNetLite.Core/2.4.4": {
         "runtime": {
           "lib/netstandard2.0/Amqp.Net.dll": {
             "assemblyVersion": "2.1.0.0",
-            "fileVersion": "2.4.3.0"
+            "fileVersion": "2.4.4.0"
           }
         }
       },
-      "AMQPNetLite.Serialization/2.4.3": {
+      "AMQPNetLite.Serialization/2.4.4": {
         "dependencies": {
-          "AMQPNetLite.Core": "2.4.3",
+          "AMQPNetLite.Core": "2.4.4",
           "System.Collections": "4.3.0",
           "System.Collections.Concurrent": "4.3.0",
           "System.Reflection": "4.3.0",
@@ -39,7 +39,7 @@
         "runtime": {
           "lib/netstandard1.3/Amqp.Serialization.dll": {
             "assemblyVersion": "2.1.0.0",
-            "fileVersion": "2.4.3.0"
+            "fileVersion": "2.4.4.0"
           }
         }
       },
@@ -365,19 +365,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AMQPNetLite.Core/2.4.3": {
+    "AMQPNetLite.Core/2.4.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ScD4522aae8u9pWaREuc0/EmbeYyI52YBoN0/HFfjkiPKH7GhSnUMEKidTCVYsPg+C1wcmLSJWa335OOqEptlw==",
-      "path": "amqpnetlite.core/2.4.3",
-      "hashPath": "amqpnetlite.core.2.4.3.nupkg.sha512"
+      "sha512": "sha512-Fjg9VYj83X9GwzK8EA9kJ+22uzH7XHuS6hJcNhOxgpX7SWjE7b9lqdiQV+ffiomdhdgQpNHlHVI7YuAXvM/JSQ==",
+      "path": "amqpnetlite.core/2.4.4",
+      "hashPath": "amqpnetlite.core.2.4.4.nupkg.sha512"
     },
-    "AMQPNetLite.Serialization/2.4.3": {
+    "AMQPNetLite.Serialization/2.4.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ChZrDyUO3RTLcZJNJ8duE2p2fSvqqecmlbGMM92cZVIi5mQFKGgf08Kn/Edj0RFyvB4IKzC89DYCWGjAuj86Wg==",
-      "path": "amqpnetlite.serialization/2.4.3",
-      "hashPath": "amqpnetlite.serialization.2.4.3.nupkg.sha512"
+      "sha512": "sha512-LqryS0noYZcN8wFG1ggOnTt4qFnRDhLhwR04zHn6IUlB/WLO7KTr1waFfOOC4o2RxJ+/KWEdPyTk64r6Mk6hlw==",
+      "path": "amqpnetlite.serialization/2.4.4",
+      "hashPath": "amqpnetlite.serialization.2.4.4.nupkg.sha512"
     },
     "CommandLineParser/2.8.0": {
       "type": "package",
