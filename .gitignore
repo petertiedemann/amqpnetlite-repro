@@ -1,0 +1,16 @@
+.vs/
+bin/
+obj/
+
+*.user
+zip/
+artifacts/
+packages-build/
+tools/
+!tools/packages.config
+log*.txt
+**/PublishProfiles/*
+*.exe
+nuget.config
+.idea/
+doc/debug.log
