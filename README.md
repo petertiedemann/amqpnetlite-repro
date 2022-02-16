@@ -82,3 +82,47 @@ C2.2
 12.35.33 > SENT: C2.2
 Enter a message, 'exit' to quit
 ```
+
+Also tested with TestAmqpBroker:
+
+Client 1 (sending C1.x message)
+```
+Enter a message, 'exit' to quit
+C1.1
+12.54.34 > INCOMING:C1.1
+12.54.34 > SENT: C1.1
+Enter a message, 'exit' to quit
+C1.2
+12.54.35 > INCOMING:C1.2
+12.54.35 > SENT: C1.2
+Enter a message, 'exit' to quit
+C1.3
+12.54.37 > INCOMING:C1.3
+12.54.37 > SENT: C1.3
+Enter a message, 'exit' to quit
+C1.4
+12.55.21 > INCOMING:C2.1
+12.55.21 > INCOMING:C2.2
+12.55.21 > INCOMING:C2.3
+12.55.21 > INCOMING:C1.4
+12.55.21 > SENT: C1.4
+```
+
+Client 2 (sending 2.x message):
+```
+Enter a message, 'exit' to quit
+12.54.34 > INCOMING:C1.1
+12.54.35 > INCOMING:C1.2
+12.54.37 > INCOMING:C1.3
+C2.1
+12.54.52 > INCOMING:C2.1
+12.54.52 > SENT: C2.1
+Enter a message, 'exit' to quit
+C2.2
+12.54.55 > INCOMING:C2.2
+12.54.55 > SENT: C2.2
+Enter a message, 'exit' to quit
+C2.3
+12.54.56 > INCOMING:C2.3
+12.54.56 > SENT: C2.3
+```
